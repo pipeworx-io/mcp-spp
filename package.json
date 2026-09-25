@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-spp",
+  "version": "0.1.0",
+  "description": "Real-time electricity data for SPP, the Southwest Power Pool grid operator covering 14 US states from the Texas panhandle to North Dakota: generation by fuel type, power demand and renewable forecasts, five-minute wholesale electricity prices, and the full public market-data file archive back to 2013.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-spp": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "spp"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-spp.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-ca10143309d39d9234c4988059d2a730c884a3383fb45c5e440521fce489ceaf",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+  }
+}
