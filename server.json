@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/spp",
   "title": "Spp",
   "description": "Real-time electricity data for SPP, the Southwest Power Pool grid operator covering 14 US states…",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/spp",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-spp",

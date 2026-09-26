@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-spp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Real-time electricity data for SPP, the Southwest Power Pool grid operator covering 14 US states from the Texas panhandle to North Dakota: generation by fuel type, power demand and renewable forecasts, five-minute wholesale electricity prices, and the full public market-data file archive back to 2013.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-ca10143309d39d9234c4988059d2a730c884a3383fb45c5e440521fce489ceaf",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-21e06bcd2e60d35f678cccdf3f3d888b91fc8881075939fbd5ed8547ccfdae8b",
+    "sourceCommit": "d4a9636716f113458bd312e487c065f76548df8c"
   }
 }
